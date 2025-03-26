@@ -3,7 +3,7 @@ const app = express();
 const port = 3000; // You can use any port you prefer
 
 app.get('/hello', (req, res) => {
-  res.send('Hello!');
+  res.send('Hello ecs!');
 });
 
 app.get('/path', (req, res) => {
